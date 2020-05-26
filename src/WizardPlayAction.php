@@ -1,15 +1,15 @@
 <?php
 
 /**
- * Lombardia Informatica S.p.A.
+ * Aria S.p.A.
  * OPEN 2.0
  *
  *
- * @package    lispa\amos\wizflow
+ * @package    open20\amos\wizflow
  * @category   CategoryName
  */
 
-namespace lispa\amos\wizflow;
+namespace open20\amos\wizflow;
 
 use Yii;
 use yii\base\Model;
@@ -19,7 +19,7 @@ use yii\web\UploadedFile;
 
 /**
  * Class WizardPlayAction
- * @package lispa\amos\wizflow
+ * @package open20\amos\wizflow
  */
 class WizardPlayAction extends \yii\base\Action
 {

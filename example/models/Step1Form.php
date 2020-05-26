@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * Aria S.p.A.
+ * OPEN 2.0
+ *
+ *
+ * @package    Open20Package
+ * @category   CategoryName
+ */
+
 namespace app\models;
 
 use raoul2000\workflow\validation\WorkflowScenario;
@@ -8,7 +17,7 @@ use yii\base\Model;
 /**
  * ContactForm is the model behind the contact form.
  */
-class Step1Form extends Model implements \lispa\amos\wizflow\WizflowModelInterface
+class Step1Form extends Model implements \open20\amos\wizflow\WizflowModelInterface
 {
     public $favoriteColor;
     public $status;

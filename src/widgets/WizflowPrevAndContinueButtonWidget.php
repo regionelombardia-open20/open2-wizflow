@@ -1,24 +1,24 @@
 <?php
 
 /**
- * Lombardia Informatica S.p.A.
+ * Aria S.p.A.
  * OPEN 2.0
  *
  *
- * @package    lispa\amos\wizflow\widgets
+ * @package    open20\amos\wizflow\widgets
  * @category   CategoryName
  */
 
-namespace lispa\amos\wizflow\widgets;
+namespace open20\amos\wizflow\widgets;
 
-use lispa\amos\core\helpers\Html;
-use lispa\amos\core\module\BaseAmosModule;
+use open20\amos\core\helpers\Html;
+use open20\amos\core\module\BaseAmosModule;
 use yii\base\Widget;
 use yii\helpers\ArrayHelper;
 
 /**
  * Class WizflowPrevAndContinueButtonWidget
- * @package lispa\amos\wizflow\widgets
+ * @package open20\amos\wizflow\widgets
  */
 class WizflowPrevAndContinueButtonWidget extends Widget
 {

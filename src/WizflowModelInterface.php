@@ -1,20 +1,20 @@
 <?php
 
 /**
- * Lombardia Informatica S.p.A.
+ * Aria S.p.A.
  * OPEN 2.0
  *
  *
- * @package    lispa\amos\wizflow
+ * @package    open20\amos\wizflow
  * @category   CategoryName
  */
 
-namespace lispa\amos\wizflow;
+namespace open20\amos\wizflow;
 
 /**
  * Interface WizflowModelInterface
  * Interface that must be implemented by all models used by the wizflow manager component
- * @package lispa\amos\wizflow
+ * @package open20\amos\wizflow
  */
 interface WizflowModelInterface
 {

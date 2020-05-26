@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * Aria S.p.A.
+ * OPEN 2.0
+ *
+ *
+ * @package    Open20Package
+ * @category   CategoryName
+ */
+
 $params = require(__DIR__ . '/params.php');
 
 $config = [
@@ -11,12 +20,12 @@ $config = [
             'class' => 'raoul2000\workflow\source\file\WorkflowFileSource'
         ],
         'wizflowManager' => [
-            'class' => '\lispa\amos\wizflow\WizflowManager',
+            'class' => '\open20\amos\wizflow\WizflowManager',
             'workflowSourceName' => 'workflowSource'
         ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => '3GufHzdPMW2Fv8ZnM7Eq6X3iTLvvB5v0',
+            'cookieValidationKey' => 'PUT_COOKIEVALIDATION_HERE',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',

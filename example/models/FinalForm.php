@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * Aria S.p.A.
+ * OPEN 2.0
+ *
+ *
+ * @package    Open20Package
+ * @category   CategoryName
+ */
+
 namespace app\models;
 
 use yii\base\Model;
@@ -7,7 +16,7 @@ use yii\base\Model;
 /**
  * ContactForm is the model behind the contact form.
  */
-class FinalForm extends Model implements \lispa\amos\wizflow\WizflowModelInterface
+class FinalForm extends Model implements \open20\amos\wizflow\WizflowModelInterface
 {
     public $rate;
     public $status;

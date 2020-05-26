@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * Aria S.p.A.
+ * OPEN 2.0
+ *
+ *
+ * @package    Open20Package
+ * @category   CategoryName
+ */
+
 namespace app\controllers;
 
 use Yii;
@@ -14,7 +23,7 @@ class SiteController extends Controller
                 'class' => 'yii\web\ErrorAction',
             ],
             'wizflow' => [
-              'class' => '\lispa\amos\wizflow\WizardPlayAction'
+              'class' => '\open20\amos\wizflow\WizardPlayAction'
             ]
         ];
     }

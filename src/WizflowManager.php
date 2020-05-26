@@ -1,15 +1,15 @@
 <?php
 
 /**
- * Lombardia Informatica S.p.A.
+ * Aria S.p.A.
  * OPEN 2.0
  *
  *
- * @package    lispa\amos\wizflow
+ * @package    open20\amos\wizflow
  * @category   CategoryName
  */
 
-namespace lispa\amos\wizflow;
+namespace open20\amos\wizflow;
 
 use raoul2000\workflow\base\Status;
 use raoul2000\workflow\source\IWorkflowSource;
@@ -21,7 +21,7 @@ use yii\base\Model;
 /**
  * Class WizflowManager
  * Implement the Wizard UI design pattern using yii2-workflow.
- * @package lispa\amos\wizflow
+ * @package open20\amos\wizflow
  */
 class WizflowManager extends \yii\base\BaseObject
 {
@@ -90,6 +90,7 @@ class WizflowManager extends \yii\base\BaseObject
     /**
      * Loads existing wizard data if available.
      *
+     * @see \yii\base\Object::init()
      */
     public function init()
     {
