@@ -90,7 +90,6 @@ class WizflowManager extends \yii\base\BaseObject
     /**
      * Loads existing wizard data if available.
      *
-     * @see \yii\base\Object::init()
      */
     public function init()
     {

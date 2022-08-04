@@ -1,14 +1,5 @@
 <?php
 
-/**
- * Aria S.p.A.
- * OPEN 2.0
- *
- *
- * @package    Open20Package
- * @category   CategoryName
- */
-
 $params = require(__DIR__ . '/params.php');
 
 $config = [
@@ -25,7 +16,7 @@ $config = [
         ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => 'PUT_COOKIEVALIDATION_HERE',
+            'cookieValidationKey' => '3GufHzdPMW2Fv8ZnM7Eq6X3iTLvvB5v0',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
